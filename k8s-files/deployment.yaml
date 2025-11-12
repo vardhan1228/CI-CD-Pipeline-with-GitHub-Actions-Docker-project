@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotstar
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hotstar
+  template:
+    metadata:
+      labels:
+        app: hotstar
+    spec:
+      containers:
+        - name: aws
+          image: vardhan1228/hotstar:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "100m"       
+              memory: "128Mi"   
+            limits:
+              cpu: "500m"       
+              memory: "512Mi"   
