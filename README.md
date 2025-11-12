@@ -38,6 +38,7 @@ Before you begin, make sure you have the following tools installed on your Windo
 ## Usage
 
 To apply these configurations to your Kubernetes cluster:
+### the configuratin in ```k8s-files path`1``
 
 ```bash
 # Apply the deployment
