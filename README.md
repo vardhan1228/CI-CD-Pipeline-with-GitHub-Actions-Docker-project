@@ -84,5 +84,10 @@ To update or modify the configurations:
 
 ## Contributing
 
+# Docker image link 
+```
+vardhan1228/hotstar:latest
+```
+
 Feel free to submit issues and enhancement requests.
 
